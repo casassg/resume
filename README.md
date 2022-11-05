@@ -8,6 +8,7 @@ Based in [https://github.com/jessicatysu/resume](https://github.com/jessicatysu/
 
 ## Build
 
-Requires: latex, pdflatex, make
+Linux Requires: `latex, pdflatex, make`
+MacOS Requires: `brew install --cask mactex`
 1. `make`
 2. `open pdf/resume.pdf`
