@@ -28,7 +28,7 @@
             pdfsubject={Gerard Casas Saez personal resume and CV},
             pdfkeywords={resume, cv, Gerard Casas, software engineer,},
             pdfproducer={Latex with hyperref},
-            pdfcreator={pdflatex, or other tool}]{hyperref}
+            pdfcreator={pdflatex, make}]{hyperref}
 
 
 %-----------------------------------------------------------
@@ -66,8 +66,7 @@
 \resheading{Summary}
 	\begin{itemize}
 		\resitem{Interested in building Machine Learning and Data products and infrastructure at scale.}
-		\resitem{Work experience in Machine Learning infrastructure particularly on automatic retraining pipelines.  }
-		\resitem{Research experience on live data collection systems for data analysis.}
+		\resitem{Work experience in Machine Learning infrastructure particularly on model training and hosting solutions. }
 		\resitem{Contributed to several open-Source projects like Apache Airflow, Kubeflow Pipelines and Tensorflow Extended.}
 		
 	\end{itemize}
@@ -85,41 +84,52 @@
 \resheading{Experience}
 	\begin{itemize}
 		\item
-			\ressubheading{Twitter}{Boulder, CO}{Senior Machine Learning Engineer}{Senior Machine Learning Engineer, April 2022 - Present}
+		\ressubheading{Block Inc}{Houston, TX}{L6 Machine Learning Engineer}{L6 Machine Learning Engineer, September 2024 - Present}
+		\begin{itemize}
+			\resitem{Co-authored and launched initial version for automatic model monitoring, tracking input and output drift.}
+			\resitem{Led support for hosting FAISS approximate nearest neighbors within our model hosting solution.}
+			\resitem{Collaborated across teams to evaluate next generation model training platforms to scale up further.}
+			\resitem{Mentored new team members for growth and continued development.}
+		\end{itemize}
+		\item
+			\ressubheading{Block Inc}{Boulder, CO}{L5 Machine Learning Engineer}{L5 Machine Learning Engineer, March 2023 - September 2024}
 			\begin{itemize}
-				\resitem{Technical lead for the ML Pipelines team on Cortex Platform.} 
-
-				\resitem{Led KFP SDK internal general adoption across the company.}
-				\resitem{Worked on pipelines python client authentication and  next-gen component authoring.}
-				\resitem{Built internal command line tool for KFP Pipelines continuous release.}
-				\resitem{Worked as point of contact for industry collaborations with Spotify and Google.}
-				\resitem{Mentored team members helping scope and drive projects for the ML Pipelines team.}
-				\resitem{Defined quarterly roadmap, drove project alignment across teams, improved team execution with Kanban.}
-				
+				\resitem{Developed automatic inference request storage system for statistical analysis and model debugging.}
+				\resitem{Co-authored initial version of abstract multi-model hosting endpoints reducing cost of hosting models by >50\%.}
+				\resitem{Co-author of Python SDK for model hosting service for automatic model deployment.}
+				\resitem{Developed initial support for hosting LLM within Block.}
+				\resitem{Led a collaboration with different teams across the company to improve reliability for the model hosting service.}
+				\resitem{Presented in \href{https://www.youtube.com/watch?v=5WPrZgUu8u0}{industry conference} about scaling up model hosting at Block.}
+				\resitem{Co-authored initial next-gen training stack evaluation with the creation of Slurm cluster in GCP as POC.}
+			\end{itemize}
+		\item
+			\ressubheading{Twitter/X}{Boulder, CO}{Senior Machine Learning Engineer}{Senior Machine Learning Engineer, April 2022 - February 2023}
+			\begin{itemize}
+				\resitem{Co-authored and launched initial version of X Inc large scaling training cluster with Slurm and Ansible.}
+				\resitem{Technically led team of 8 engineers on ML Pipelines team, defining roadmap and execution cadence.} 
+				\resitem{Led internal adoption of Kubeflow Pipelines for model retraining.}
+				\resitem{Designed and implemented next-gen re-training pipeline components API for both TFX and KFP.}
+				\resitem{Worked with industry collaborators from Spoify and Google for alignment on reusable components for automatic model re-training pipelines.}
 			\end{itemize}
 		\item
 			\ressubheading{Twitter}{Boulder, CO}{Machine Learning Engineer II}{Machine Learning Engineer II, October 2020 - April 2022}
 			\begin{itemize}
-				\resitem{Led development for team CI/CD system improving code and documentation stability. } 
-
-				\resitem{Developed initial python wheel and VSCode Twitter monorepo integrations used by 100s of engineers.}
-				\resitem{Co-led/designed TFX pipeline production scheduling for Kubeflow Pipeline clusters.}
-				\resitem{Led pipeline integration for GPU training using AI Platform Training.}
+				\resitem{Led adoption and migration to production model retraining scheduling framework on top of Kubeflow clusters.}
+				\resitem{Led development for comprehensive automatic CI/CD systems. } 
+				\resitem{Developed automatic Python wheel extractor program to help develop code in interactive environments outside of the monorepo.}
+				\resitem{Authored VSCode Twitter monorepo intergration for Python developers, speeding development time.}
 				\resitem{Co-authored evaluation for next-gen ML Training Service on GCP.}
-				\resitem{Taught "ML at Scale on GCP with TFX" class for internal Hackweek with over 300 virtual attendees.}
-				\resitem{Collaborated with customer teams to launch the first ads click model migration to GCP with improved developer iteration, leading to faster model improvements.}
-			    \resitem{Cross-team mentoring to build new pipeline components that integrate well across platform.}
-				\resitem{Member of various working groups like ML to GCP virtual team, and Python Customer Advisory Board.}
-				\resitem{Multiple contributions to TFX, and Kubeflow Pipelines OSS projects.}
-
-				
+				\resitem{Taught internal class on improving model quality by setting up automatic model re-training.}
+				\resitem{Collaborated with Ads team to launch Ads Click model in GCP with improved developer iteration, leading to faster model improvements.}
+			    \resitem{Collaborated with teams across the company to create reusable code components that can be used within ML re-training pipelines.}
+				\resitem{Contributed to Tensorflow Extended and Kubeflow Pipelines OSS projects.}
 			\end{itemize}
 		\item
 			\ressubheading{Twitter}{Boulder, CO}{Machine Learning Engineer}{Machine Learning Engineer, September 2019 - October 2020}
 			\begin{itemize}
-				\resitem{Contributed to internal distributed Bayesian hyperparameter optimization framework based on \href{https://ax.dev}{Ax.dev}.} 
+				\resitem{Co-authored internal hyperparameter optimization framework for using Bayesian optimization with Ax.}
 				\resitem{Supported ML research work for "Tuning Word2vec for Large Scale Recommendation Systems" (\href{https://arxiv.org/pdf/2009.12192.pdf}{RecSys2020}).}
-				\resitem{Worked on evaluation of industry pipeline solutions and eventual adoption of TFX for defining end-to-end ML pipelines.}
+				\resitem{Worked on evaluation of industry ML model automatic retraining solutions and eventual adoption of TFX for defining end-to-end ML pipelines.}
 			\end{itemize}
 		\item
 			\ressubheading{Project EPIC, University of Colorado Boulder}{Boulder, CO}{Research Assistant}{Research Assistant, February 2017 - August 2019}
@@ -128,7 +138,7 @@
 				\resitem{Deployed system prototype with Kubernetes using custom microservices written in Go and Python.}
 			\end{itemize}
 			\item
-			\ressubheading{Twitter}{Boulder, CO}{Software Engineering intern}{Software Engineering intern, May 2018 - August 2018}
+			\ressubheading{Twitter}{Boulder, CO}{Software Engineering Intern}{Software Engineering Intern, May 2018 - August 2018}
 			\begin{itemize}
 				\resitem{Developed CLI to deploy Apache Airflow instances internally.}
 				\resitem{Helped reduce ML model training and deploy time by 1/4 developing \href{https://blog.twitter.com/engineering/en_us/topics/insights/2018/ml-workflows.html}{ML Workflows}.}
