@@ -64,9 +64,9 @@
 \vspace{0.1in}
 \resheading{Summary}
 	\begin{itemize}
-		\resitem{7+ years building ML infrastructure at scale, from model serving platforms to GPU training clusters managing 500+ GPUs.}
-		\resitem{Experience spanning model hosting, LLM serving, training infrastructure, and developer tooling across Kubernetes and cloud environments.}
-		\resitem{Open source contributor: Apache Airflow Taskflow API (shipped in 2.0), TFX, Triton Server.}
+		\resitem{8+ years building AI/ML systems at scale, from model serving and optimization to large-scale training infrastructure.}
+		\resitem{Shipped LLM serving, AI agent tooling, and ML training infrastructure across Kubernetes and cloud environments.}
+		\resitem{Open source contributor: Apache Airflow @task API (shipped in 2.0), TFX, Triton Server.}
 	\end{itemize}
 
 \resheading{Experience}
@@ -74,46 +74,59 @@
 		\item
 		\ressubheading{Block Inc}{Houston, TX}{L6 Machine Learning Engineer}{L6 Machine Learning Engineer, September 2024 - Present}
 		\begin{itemize}
-			\resitem{Designed LLM serving gateway with OpenAI-compatible API on the model hosting platform, enabling teams to host open-source models like GLM 4.6 via vLLM at scale, reducing integration time from weeks to days.}
-			\resitem{Built inference request archival and evaluation logging system, now logging 19B+ prediction records monthly at 7.5K rows/second across 145 production ML models for model debugging, statistical analysis, and quality assessment.}
-			\resitem{Originated Slurm-based ML training cluster as a hack week project, maintained it as production infrastructure for 2+ years enabling a cross-org research team's NeurIPS-accepted paper.}
-			\resitem{Built Kubernetes-based ML training platform managing 500+ GPUs across 15 accelerator types with 75+ monthly active users, replacing the legacy Slurm cluster and completing a full platform migration.}
+			\resitem{Built Kubernetes ML training platform on AWS serving 75+ monthly active users across Block.}
+			\resitem{Maintained Gondola, Block's unified ML inference service, serving 200K+ model requests per second.}
+			\resitem{Built inference logging system processing 19B+ records monthly at 7.5K rows/sec.}
+			\resitem{Built and maintained Slurm ML training cluster on GCP for 2+ years, enabling a NeurIPS paper.}
+			\resitem{Added HTTP MCP support to our model hosting service for automatic model development and debugging.}
+			\resitem{Drove platform strategy across Cloud Economics, AWS, and 5+ internal ML teams.}
+			% \resitem{Designed self-hosted LLM serving gateway with OpenAI-compatible API and vLLM.}
+			% \resitem{Designed LLM serving gateway with OpenAI-compatible API on the model hosting platform, enabling teams to host open-source models like GLM 4.6 via vLLM at scale, reducing integration time from weeks to days.}
+			% \resitem{Built inference request archival and evaluation logging system, now logging 19B+ prediction records monthly at 7.5K rows/second across 145 production ML models for model debugging, statistical analysis, and quality assessment.}
+			% \resitem{Originated Slurm-based ML training cluster as a hack week project, maintained it as production infrastructure for 2+ years enabling a cross-org research team's NeurIPS-accepted paper.}
+			% \resitem{Built Kubernetes-based ML training platform managing 500+ GPUs across 15 accelerator types with 75+ monthly active users, replacing the legacy Slurm cluster and completing a full platform migration.}
+			% \resitem{Built AI agent skills and MCP integrations across the organization, automating cluster debugging, model deployment, and migration workflows.}
+			% \resitem{Drove platform strategy across Cloud Economics, AWS, and 5+ internal ML teams, aligning infrastructure investments with business priorities.}
 		\end{itemize}
 		\item
 			\ressubheading{Block Inc}{Boulder, CO}{L5 Machine Learning Engineer}{L5 Machine Learning Engineer, March 2023 - September 2024}
 			\begin{itemize}
 				% \resitem{Developed automatic inference request storage system for statistical analysis and model debugging.}
-				\resitem{Co-authored initial version for multi-model hosting endpoints reducing cost by 50\%.}
-				\resitem{Co-author of Python SDK for automatic model deployment reducing deploy times to hours instead of days.}
-				\resitem{Developed initial support for hosting LLM within Block.}
-				\resitem{Presented in \href{https://www.youtube.com/watch?v=5WPrZgUu8u0}{industry conference} about scaling up model hosting at Block.}
+				\resitem{Co-authored multi-model hosting endpoints reducing inference cost by 50\%.}
+				\resitem{Co-authored Python SDK for automatic model deployment, reducing deploy times to hours instead of days.}
+				\resitem{Designed self-hosted LLM serving gateway with OpenAI-compatible API and vLLM within Block.}
+				\resitem{Presented in \href{https://www.youtube.com/watch?v=5WPrZgUu8u0}{industry conference} about scaling up Gondola, our unified ML model hosting at Block.}
+				% \resitem{Developed initial support for hosting LLM within Block.}
+				% \resitem{Co-authored initial version for multi-model hosting endpoints reducing cost by 50\%.}
+				% \resitem{Co-author of Python SDK for automatic model deployment reducing deploy times to hours instead of days.}
 				% \resitem{Co-authored initial next-gen training stack evaluation with the creation of Slurm cluster in GCP as POC.}
 			\end{itemize}
 		\item
 			\ressubheading{Twitter/X}{Boulder, CO}{Senior Machine Learning Engineer}{Senior Machine Learning Engineer, April 2022 - February 2023}
 			\begin{itemize}
-				\resitem{Co-authored and launched initial version of X Inc large scaling training cluster with Slurm and Ansible.}
-				\resitem{Technically led team of 8 engineers on ML Pipelines team, defining roadmap and execution cadence.} 
+				\resitem{Co-authored and launched X Inc's large-scale ML training cluster using Slurm and Ansible.}
+				\resitem{Led team of 8 engineers defining roadmap, execution cadence, and technical direction for ML Pipelines.} 
 				% \resitem{Led internal adoption of Kubeflow Pipelines for model retraining.}
 				% \resitem{Designed and implemented next-gen re-training pipeline components API for both TFX and KFP.}
-				\resitem{Worked with industry collaborators from Spotify and Google for alignment on reusable components for automatic model re-training pipelines.}
+				\resitem{Partnered with Spotify and Google to define reusable component standards for ML retraining pipelines.}
 			\end{itemize}
 		\item
 			\ressubheading{Twitter}{Boulder, CO}{Machine Learning Engineer II}{Machine Learning Engineer II, October 2020 - April 2022}
 			\begin{itemize}
-				\resitem{Led adoption and migration to production model retraining scheduling framework on top of Kubeflow clusters.}
-				\resitem{Led development for comprehensive automatic CI/CD systems.}
+				\resitem{Led adoption and migration of production model retraining to Kubeflow, standardizing pipeline scheduling.}
+				\resitem{Led development of automatic CI/CD system for ML pipelines.}
 				% \resitem{Developed automatic Python wheel extractor program to help develop code in interactive environments outside of the monorepo.}
 				% \resitem{Authored VSCode Twitter monorepo intergration for Python developers, speeding development time.}
 				% \resitem{Co-authored evaluation for next-gen ML Training Service on GCP.}
 				% \resitem{Taught internal class on improving model quality by setting up automatic model re-training.}
-				\resitem{Collaborated with Ads team to launch Ads Click model in GCP with improved developer iteration, leading to faster model improvements.}
+				\resitem{Launched Ads Click model retraining in GCP with Ads team, accelerating model iteration cycles.}
 			\end{itemize}
 		\item
 			\ressubheading{Twitter}{Boulder, CO}{Machine Learning Engineer}{Machine Learning Engineer, September 2019 - October 2020}
 			\begin{itemize}
-				\resitem{Co-authored internal hyperparameter optimization framework for using Bayesian optimization with Ax.}
-				\resitem{Supported ML research work for "Tuning Word2vec for Large Scale Recommendation Systems" (\href{https://arxiv.org/pdf/2009.12192.pdf}{RecSys2020}).}
+				\resitem{Developed hyperparameter optimization tooling (Tuner) used in RecSys2020 paper, increasing Twitter Who To Follow follow rate by 15\%.}
+				% \resitem{Co-authored internal hyperparameter optimization framework for using Bayesian optimization with Ax.}
+				% \resitem{Supported ML research work for "Tuning Word2vec for Large Scale Recommendation Systems" (\href{https://arxiv.org/pdf/2009.12192.pdf}{RecSys2020}).}
 				% \resitem{Worked on evaluation of industry ML model automatic retraining solutions and eventual adoption of TFX for defining end-to-end ML pipelines.}
 			\end{itemize}
 		\item
@@ -174,8 +187,7 @@
 				\resitem{Collaborator for ModelCardToolking migration mentoring Twitter team members to contribute to project.} 
 			\end{itemize}
 		\item
-			\ressubheading{
-AIP-31: Airflow functional DAG definition / "Taskflow API"}{Boulder, CO, USA}{ML Engineer}{Core Contributor, January 2020 - July 2020}
+			\ressubheading{AIP-31: Apache Airflow @task API}{Boulder, CO, USA}{ML Engineer}{Core Contributor, January 2020 - July 2020}
 			\begin{itemize}
 				\resitem{Proposed and implemented improvement for Airflow DAG user experience adding explicit XCom data.}
 				\resitem{Released in Airflow 2.0.0 and used in one of the main tutorials for the project.}
@@ -200,23 +212,24 @@ AIP-31: Airflow functional DAG definition / "Taskflow API"}{Boulder, CO, USA}{ML
 \resheading{Awards}
 	\begin{itemize}
 		\resitem{\href{https://opensource.googleblog.com/2022/03/Announcing-First-Group-of-Google-Open-Source-Peer-Bonus-Winners-in-2022.html}{\textbf{Google OSS Peer Bonus for contributions to TFX and TFX Addons} (2022)}}
-		\resitem{\textbf{Denver Government award winner at ETHDenver.} (2018)}
+		% \resitem{\textbf{Denver Government award winner at ETHDenver.} (2018)}
 		\resitem{\textbf{Grant winner at MD5 Physical Cyber Hackathon.} (2018)}
 		\resitem{\textbf{Balsells Fellowship.} (2017-2019, two years of funding for graduate studies)}
 		\resitem{\textbf{Balsells Mobility program.} (2017, five months of funding for research)}
-		\resitem{\textbf{52North Innovation Incentive Award.} (2013)}
+		% \resitem{\textbf{52North Innovation Incentive Award.} (2013)}
 	\end{itemize}
 
-\resheading{Publications}
+\resheading{Publications \& Acknowledgments}
 	\begin{itemize}
 		\item 	Jennings A., Gerard C., Kenneth M. A., Leysia P., and Rebecca M.  \textbf{Incorporating Context and Location Into Social Media Analysis: A Scalable, Cloud-Based Approach for More Powerful Data Science.}  \textit{HICSS 52 (accepted).}
         \item Gerard C. \textbf{Social Media Analysis for Crisis Informatics in the Cloud} \textit{MS Thesis}
+        \item Chamberlain B., Rossi E., Shiebler D., Sedhain S., Bronstein M. \textbf{Tuning Word2vec for Large Scale Recommendation Systems.} \textit{RecSys 2020.} (acknowledged for hyperparameter optimization tooling)
 	\end{itemize}
 
 
 \resheading{Skills}
 	\begin{itemize}
-		\resitem{\textbf{Programming:} Python, Go, Terraform. \textbf{Infrastructure:} Kubernetes, EKS, Helm, ArgoCD, Slurm, vLLM, gRPC, AWS, GCP. \textbf{Data \& ML:} Kubeflow Pipelines, Apache Airflow, Spark, Kafka.}
+		\resitem{\textbf{ML/AI:} PyTorch, TensorRT, Triton, vLLM, ONNX, LLM serving, model optimization. \textbf{Infrastructure:} Kubernetes, EKS, Helm, ArgoCD, Terraform, AWS, GCP. \textbf{MLOps:} Kubeflow Pipelines, Apache Airflow, Spark, Kafka. \textbf{Languages:} Python, Go.}
 		\resitem{\textbf{Native:} Catalan, Spanish. \textbf{Advanced:} English.}
 		\resitem{\textbf{Hobbies:} Skiing, Running, Photography, Roller hockey, Piano, Swim.}
 	\end{itemize}

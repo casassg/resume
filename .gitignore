@@ -2,3 +2,5 @@
 *.log
 *.out
 .DS_Store
+src/cover_letter.tex
+pdf/cover_letter.pdf
